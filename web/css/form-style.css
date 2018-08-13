@@ -1,0 +1,22 @@
+/* Done by Tang Hong Jie */
+.custom_form {
+    border:1px solid black;
+}
+
+.custom_form table {
+    margin: auto;
+    text-align: center;
+}
+
+.custom_form table tbody td:nth-child(1) {
+    text-align: right;
+    font-weight: bold;
+}
+
+.custom_form table tbody td:nth-child(2) {
+    text-align: left;
+}
+
+.custom_form table tfoot {
+    text-align: center;
+}

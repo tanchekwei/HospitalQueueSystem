@@ -1,0 +1,30 @@
+/* Done by Tang Hong Jie */
+
+.hover-button {
+    background-color: #333f4e;
+    color: white;
+    
+    display: inline-block;
+    list-style-type: none;
+    
+    font-weight: bold;
+    
+    border:1px solid #ffffff;
+    border-radius: 5px;
+    
+    margin-right: 10px;
+    padding: 5px 15px;
+}
+
+.hover-button span {
+    max-width: 0;
+    -webkit-transition: max-width 1s;
+    transition: max-width 1s;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.hover-button:hover span {
+    max-width: 25rem;
+}

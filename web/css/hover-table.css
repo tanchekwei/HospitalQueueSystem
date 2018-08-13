@@ -1,0 +1,45 @@
+/* Done by Tang Hong Jie */
+#hover-table {
+    border-collapse: collapse;
+    border: 3px solid #ffffff;
+    width: fixed;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#hover-table td, #hover-table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#hover-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#hover-table tr:hover {background-color: #ddd;}
+
+#hover-table th {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	background-color: #333f4e;
+	color: white;
+}
+
+#hover-table td {
+	border-top: 8px;
+	border-bottom: 8px;
+}
+
+#hover-table #total {
+	border-top: 3px solid #333f4e;
+	border-bottom: 3px solid #333f4e;
+	text-align: center;
+}
+
+#hover-table #number {
+	text-align: right;
+	font-style: italic;
+}
+
+#hover-table #date {
+	text-align: center;
+}
