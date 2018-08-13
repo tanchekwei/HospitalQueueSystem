@@ -140,6 +140,7 @@ public class Login extends HttpServlet {
             } else if (position.compareTo("admin") == 0) {
                 response.sendRedirect(request.getContextPath() + "/DisplayDoctors");
             }
+            session.setAttribute("isValid", "");
         } else {
             session.setAttribute("isValid", "false");
             response.sendRedirect("secureVisitor/Login.jsp");
