@@ -27,7 +27,16 @@
         </style>
     </head>
     <body>
+
         <div id="mydiv">
+            <%
+                if (session.getAttribute("isValid") != null) {
+            %>
+            <span style="color: red;">Invalid credential</span>
+
+            <%
+                }
+            %>
             <h2>Login page</h2>
             <form class="login-form" method="post" action="<%=path%>/Login">
                 <table id="hover-table">
